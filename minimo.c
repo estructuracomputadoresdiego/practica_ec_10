@@ -10,7 +10,7 @@ void inicializaMatriz(int *p, int filas, int columnas){
 
 	for (int i = 0; i < filas; ++i){
 		for (int j = 0; j < columnas; ++j){
-			*(p+i*columnas+j) = 1 + rand()%(11-1);
+			*(p+i*columnas+j) = 25 + rand()%(101-25);
 		}
 	}
 }
